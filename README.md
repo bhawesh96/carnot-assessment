@@ -1,4 +1,7 @@
 # carnot-assessment
+
+Flask based API server hosted on an EC2 instance. Configured Nginx and Gunicorn for serving the app.
+
 Hosted at http://54.163.216.242:8080
 
 #### Run tester.py for interactive menu
