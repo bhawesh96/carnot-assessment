@@ -1,6 +1,8 @@
 # carnot-assessment
 
 Flask based API server hosted on an EC2 instance. Configured Nginx and Gunicorn for serving the app.
+Raw data from CSV file is parsed and the data is sorted on STS column. After this, it is loaded in the Redis cluster.
+Keys are device IDs and the values are the device information in JSON format.
 
 Hosted at http://54.163.216.242:8080
 
